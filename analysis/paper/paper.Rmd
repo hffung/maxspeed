@@ -1,17 +1,12 @@
 ---
-title: "Title Goes Here"
+title: "Replicating Hirt et al. (2017) in a research compendium"
 author:
-  - Myfirstname Mylastname:
-      email: fl@oneplace.edu
-      institute: [UofO]
+  - Hannah Fung:
+      email: hffung@stanford.edu
+      institute: [SU]
       correspondence: true
-  - Yourfirstname Yourlastname:
-      email: fl@another.edu
-      institute: [UofA]
-      correspondence: false
 institute:
-  - UofO: University of One Place
-  - UofA: University of Another Place
+  - SU: Stanford University
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
     bookdown::word_document2:
@@ -24,11 +19,9 @@ output:
 bibliography: references.bib
 csl: "../templates/nature.csl" # Insert path for the bib-style
 abstract: |
-  Text of abstract
+  Research compendia offer a standard way of organizing the data, code, and other digital materials associated with a publication. In this exercise, we used rrtools to create a compendium for one of the figures in Hirt et al. (2017).
 keywords: |
-  keyword 1; keyword 2; keyword 3
-highlights: |
-  These are the highlights. 
+  maximum speed; body size; research compendia
 ---
 
 <!-- This is the format for text comments that will be ignored during renderings. Do not put R code in these comments because it will not be ignored. -->
