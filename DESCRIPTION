@@ -1,9 +1,14 @@
 Package: maxspeed
-Title: What the Package Does (One Line, Title Case)
+Title: Model to Predict Maximum Speed from Body Size
 Version: 0.0.0.9000
 Authors@R:
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Hannah", "Fung", , "hffung@stanford.edu", role = aut)
+Description: Fits a non-linear time-dependent model to predict an
+    organism's maximum speed from its body size, following Hirt et 
+    al. (2017). The function fit_maxspeed() fits a non-linear regression 
+    model to the data, while the function predict_maxspeed() predicts 
+    the maximum speed (in kilometres per hour) from body size (in 
+    kilograms).
 License: MIT + file LICENSE
 ByteCompile: true
 Encoding: UTF-8
